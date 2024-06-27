@@ -1,0 +1,138 @@
+* {
+    margin:0px;
+    padding: 0px;
+    font-family: 'DM Sans', 'sans serif';
+    font-weight: bold;
+}
+
+body{
+    background-color: rgb(22, 22, 22);
+}
+
+/* Home/Index */
+.container header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.container img{
+    border-radius: 25px;
+    padding: 15px;
+    margin-right: auto;
+}
+
+.navLinks{
+    list-style: none;
+}
+
+.navLinks li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navLinks li a{
+    color: rgb(66, 66, 66);
+    font-size: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.8s ease 0s;
+}
+
+.navLinks li a:hover{
+    color: white;
+}
+
+.container button{
+    background-color: rgb(66, 66, 66);
+    border: none;
+    border-radius: 50px;
+    color: rgb(95, 95, 95);
+    font-size: 1rem;
+    margin-left: 20px;
+    padding:9px 20px;
+    text-transform: uppercase;
+    transition: all 0.5s ease 0s;
+}
+
+.container2 button{
+    background-color: rgb(66, 66, 66);
+    border: none;
+    border-radius: 45px;
+    color: rgb(95, 95, 95);
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding:5px 220px;
+    transition: all 0.9s ease 0s;
+    margin: -25px 0 0 0;
+}
+
+button:hover{
+    color:white;
+    transform: scale(1.05);
+    font-stretch: extra-condensed;    
+}
+
+/* About */
+.container2{
+    width:1024px;
+    height:400px;
+    margin: 10%;
+}
+.container2 h1{
+    color:white;
+    font-size: 14rem;
+    text-transform: uppercase;
+    margin:-50px 0 0 0;
+
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    -webkit-background-clip: text;
+        background-clip: text;
+    color:transparent;
+}
+
+.container2 header h2{
+    color:white;
+    font-size:6rem;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+.textP{
+    width:768px;
+    height:800px;
+    margin:-380px 800px -380px 800px;
+}
+
+.textP h2{
+    color:white;
+    font-size:3rem;
+    text-transform: uppercase;   
+}
+
+.textP h3{
+    font-size:2rem;
+    color: rgb(139, 139, 139);
+}
+
+.textP u{
+    background-image:linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color:transparent;
+}
+
+.textP p{
+    font-size: 1rem;
+    color: rgb(139, 139, 139);
+}
+
+.textP p a{
+    color:rgb(139, 139, 139);
+}
+
+.textP iframe{
+    border: none;
+    border-radius: 10px;
+}
